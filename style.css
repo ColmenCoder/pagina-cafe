@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container1{
+    background-color: black;
+    height: 50px;
+    padding: 5px 0;
+
+}
+.button{
+
+    display: flex;
+    align-items: center; /* Alinea los botones verticalmente en el centro */
+    justify-content: center; /* Centra el botón de productos */
+    position: relative; /* Permite el posicionamiento de los elementos hijos */
+}
+
+.derecha {
+    position: absolute; /* Permite que se mueva sin afectar el botón central */
+    right: 100px; /* Espacio a la derecha del contenedor */
+    display: flex; /* Alinea los botones dentro de este contenedor */
+}
+.lista-menu{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+
+
+}
+.lista-menu li{
+    display: inline-block;
+    margin-right: 50px;
+
+}
+.satisfy-regular{
+
+    font-family: "Satisfy", cursive;
+    /* font-weight: 400;
+    font-style: normal;
+     */
+
+
+    position: absolute;
+    left: 50px;
+    display: flex;
+
+}
+.teko{
+    font-family: "Teko", sans-serif;
+    position: absolute;
+    left: 140px;
+    display: flex;
+
+}
+.container2{
+    background-color: white;
+    height: 100px;
+}
+.carousel-item img {
+    width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 400px; /* Limita la altura máxima */
+    object-fit: cover; /* Cubre el contenedor sin distorsionar la imagen */
+}
