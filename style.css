@@ -28,49 +28,60 @@ body{
     right: 100px; /* Espacio a la derecha del contenedor */
     display: flex; /* Alinea los botones dentro de este contenedor */
 }
-.lista-menu{
-    list-style-type: none;
+/* Fondo del navbar */
+/* Fondo del navbar */
+.container{
+    height: 100px;
+
+}
+.navbar {
+    border-bottom: 2px solid #607D3B; /* Línea decorativa */
+    padding: 25px 0; /* Espaciado vertical */
+}
+
+/* Estilo del logo */
+.logo {
+    text-align: left; /* Alinea logo y subtítulo */
+}
+
+.logo h1 {
+    font-family: "Satisfy", cursive;
+    font-size: 30px;
+    color: #3E2723 !important; /* Marrón oscuro */
+    margin: 0;
+}
+
+.logo p {
+    font-family: "Teko", sans-serif;
+    font-size: 24px;
+    color: #3E2723; /* Marrón oscuro */
+    margin: 0;
+}
+
+/* Estilo del menú */
+.nav {
+    list-style: none;
+    margin: 0 auto; /* Centra horizontalmente */
     padding: 0;
-    text-align: center;
-
+    display: flex; /* Alinea los elementos en fila */
+    gap: 30px; /* Espaciado entre los enlaces */
 }
-.lista-menu li{
 
-    display: inline-block;
-    margin-right: 50px;
+/* Estilo de los enlaces */
+.nav .nav-link {
+    font-family: "Teko", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #607D3B; /* Verde oliva */
+    transition: color 0.3s ease;
+}
 
-}
-.lista-menu li a {
-    text-decoration: none; /* Quita el subrayado */
-    color:#607D3B; /* Cambia el color del texto a verde oliva */
-}
-.lista-menu li a:hover{
+/* Hover para los enlaces */
+.nav .nav-link:hover {
     color: coral;
 }
 
-.satisfy-regular{ /*letra de aroma de buenos aires*/
-    font-family: "Satisfy", cursive;
-    position: absolute;
-    left: 50px;
-    display: flex;
-    color: #3E2723;
 
-}
-.teko{ /*letra de especialistas en cafe*/
-    font-family: "Teko", sans-serif;
-    position: absolute;
-    left: 140px;
-    display: flex;
-    color:#3E2723;
-}
-.teko-menu{ /*texto lista menu*/
-    font-family: "Teko", sans-serif;
-    font-size: 28px;
-}
-.container2{
-    background-color: white;
-    height: 110px;
-}
 
 .carousel{
     width: 100%;
@@ -223,4 +234,5 @@ body{
 
 }
 .boton-suscripcion button:hover { background-color: coral; }
+
 
